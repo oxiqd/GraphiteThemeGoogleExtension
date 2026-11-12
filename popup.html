@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Graphite Theme</title>
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <div class="logo">◐</div>
+        <div>
+          <h1>Graphite Theme</h1>
+          <p>Dark mode for websites</p>
+        </div>
+      </header>
+
+      <section class="theme-control">
+        <div>
+          <h2>Enable graphite</h2>
+          <p id="status">Theme is disabled</p>
+        </div>
+
+        <label class="switch">
+          <input
+            type="checkbox"
+            id="theme-toggle"
+            role="switch"
+          />
+          <span class="slider"></span>
+        </label>
+      </section>
+
+      <footer>Original website colors</footer>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

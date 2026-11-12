@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "Graphite Theme",
+  "version": "1.0.0",
+  "description": "Toggle graphite dark mode on websites.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Graphite Theme",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
